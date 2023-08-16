@@ -1,0 +1,31 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_AST_constructor_1"
+		texturefile = "gfx/interface/ideas/AST_constructor_1.png"
+	}
+	SpriteType = {
+		name = "GFX_AST_constructor_2"
+		texturefile = "gfx/interface/ideas/AST_constructor_2.png"
+	}
+	SpriteType = {
+		name = "GFX_AST_resource_min"
+		texturefile = "gfx/interface/ideas/AST_resource_min.png"
+	}
+	SpriteType = {
+		name = "GFX_AST_legacy_of_australia_1"
+		texturefile = "gfx/interface/ideas/AST_legacy_of_australia_1.png"
+	}
+	SpriteType = {
+		name = "GFX_AST_legacy_of_australia_2"
+		texturefile = "gfx/interface/ideas/AST_legacy_of_australia_2.png"
+	}
+	SpriteType = {
+		name = "GFX_AST_move_up_factories"
+		texturefile = "gfx/interface/ideas/AST_move_up_factories.png"
+	}
+	SpriteType = {
+		name = "GFX_AST_move_up_factories"
+		texturefile = "gfx/interface/ideas/AST_move_up_factories.png"
+	}
+}

@@ -1,0 +1,53 @@
+ISR_bad_everything_dynamic_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_SOV_second_five_year_plan
+
+	#INITIAL	
+	production_factory_efficiency_gain_factor = ISR_pi_production_factory_efficiency_gain_factor	#-0.15
+	production_factory_max_efficiency_factor = ISR_pi_production_factory_max_efficiency_factor	#-0.15
+	research_speed_factor = ISR_pi_research_speed_factor		#-0.15
+	consumer_goods_factor = ISR_pi_consumer_goods_factor		#0.2	
+	war_support_factor = ISR_pi_war_support_factor		#-0.3
+	army_org_factor = ISR_pi_army_org_factor		#-0.3
+	army_speed_factor = ISR_pi_army_speed_factor		#-0.3
+	army_attack_factor = ISR_pi_army_attack_factor		#-0.3
+	army_defence_factor = ISR_pi_army_defence_factor		#-0.3	
+	production_speed_infrastructure_factor = ISR_pi_production_speed_infrastructure_factor	#-0.3
+	production_speed_rail_way_factor = ISR_pi_production_speed_rail_way_factor	#-0.3
+	production_speed_supply_node_factor = ISR_pi_production_speed_supply_node_factor	#-0.3
+	production_speed_industrial_complex_factor = ISR_pi_production_speed_industrial_complex_factor	#-0.3
+	production_speed_arms_factory_factor = ISR_pi_production_speed_arms_factory_factor	#-0.3
+	production_speed_dockyard_factor = ISR_pi_production_speed_dockyard_factor	#-0.3
+	air_attack_factor = ISR_pi_air_attack_factor	#-0.5
+	air_defence_factor = ISR_pi_air_defence_factor	#-0.5
+	air_agility_factor = ISR_pi_air_agility_factor	#-0.5
+
+
+	#EXTRA IMPROVEMENTS
+	industrial_capacity_dockyard = ISR_pi_industrial_capacity_dockyard #0.05 -> Open New Dockyards
+	fuel_gain_factor_from_states = ISR_pi_fuel_gain_factor_from_states #0.05 -> Open New Oil Wells
+	production_oil_factor = ISR_pi_production_oil_factor #0.05 -> Open New Oil Wells
+	research_speed_factor = ISR_pi_research_speed_factor #0.04 -> Secret Weapons
+}
+
+ISR_underdeveloped_industry_dynamic_modifier_civilian = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_SOV_third_five_year_plan_civilian
+
+	#INITIAL
+	conscription_factor = ISR_pi_conscription_factor #-0.2
+	production_factory_efficiency_gain_factor = ISR_pi_production_factory_efficiency_gain_factor #-0.15
+	production_factory_max_efficiency_factor = ISR_pi_production_factory_max_efficiency_factor #-0.05
+	consumer_goods_factor = ISR_pi_consumer_goods_factor #0.1
+	industrial_capacity_factory = ISR_pi_industrial_capacity_factory #-0.1
+	local_resources_factor = ISR_pi_local_resources_factor #-0.05
+	production_speed_buildings_factor = ISR_pi_production_speed_buildings_factor #-0.05
+
+	#EXTRA IMPROVEMENTS
+	industrial_capacity_dockyard = ISR_pi_industrial_capacity_dockyard #0.05 -> Open New Dockyards
+	fuel_gain_factor_from_states = ISR_pi_fuel_gain_factor_from_states #0.05 -> Open New Oil Wells
+	production_oil_factor = ISR_pi_production_oil_factor #0.05 -> Open New Oil Wells
+	research_speed_factor = ISR_pi_research_speed_factor #0.04 -> Secret Weapons
+}

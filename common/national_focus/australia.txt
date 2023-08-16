@@ -1,0 +1,5566 @@
+﻿focus_tree = {
+	id = australian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = AST
+			has_dlc = "Together for Victory"
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 3000 }
+	
+#	focus = {
+#		id = AST_
+#		icon = GFX_goal_generic_construction
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -1
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+	############################
+	####	Economy Section
+	############################
+	
+	focus = {
+		id = AST_legacy_of_australia
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 9
+		y = 0
+		relative_position_id = 
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {	
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+			add_ideas = AST_loa_1
+			add_autonomy_ratio = {
+				value = 0.05
+				localization = AST_never_another_gallipoli
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_civilian_aid
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_legacy_of_australia }
+		mutually_exclusive = { focus =  }
+		x = -7
+		y = 1
+		relative_position_id = AST_legacy_of_australia
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_resource
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_legacy_of_australia }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_legacy_of_australia
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			512 = {
+				add_resource = {
+					type = rubber
+					amount = 12
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_military_aid
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_legacy_of_australia }
+		mutually_exclusive = { focus =  }
+		x = 7
+		y = 1
+		relative_position_id = AST_legacy_of_australia
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_civilian_aid_1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_civilian_aid }
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = AST_civilian_aid
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 4
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 4
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 4
+			}
+			add_autonomy_ratio = {
+				value = 0.05
+				localization = AST_never_another_gallipoli
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_civilian_aid_2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_civilian_aid }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_civilian_aid
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_autonomy_ratio = {
+				value = 0.05
+				localization = AST_never_another_gallipoli
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_civilian_aid_3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_civilian_aid_1 }
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = AST_civilian_aid_1
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_civilian_aid_4
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_civilian_aid_1 focus = AST_civilian_aid_2 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_civilian_aid_1
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = AST_constructor1
+			add_autonomy_ratio = {
+				value = 0.05
+				localization = AST_never_another_gallipoli
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_civilian_aid_5
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_civilian_aid_2 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_civilian_aid_2
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_civilian_aid_6
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_civilian_aid_3 }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_civilian_aid_3
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 4
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 4
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_civilian_aid_7
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_civilian_aid_4 }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_civilian_aid_4
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = AST_constructor2
+			add_autonomy_ratio = {
+				value = 0.05
+				localization = AST_never_another_gallipoli
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_civilian_aid_8
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_civilian_aid_5 }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_civilian_aid_5
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_civilian_aid_9
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_civilian_aid_6 }
+		prerequisite = { focus = AST_civilian_aid_7 }
+		prerequisite = { focus = AST_civilian_aid_8 }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_civilian_aid_7
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_resource_1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_resource }
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = AST_resource
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_resource_2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_resource }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_resource
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_resource_3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_resource_1 }
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = AST_resource_1
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			522 = {
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_resource_4
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_resource_2 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_resource_2
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			519 = {
+				add_resource = {
+					type = tungsten
+					amount = 18
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_resource_5
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_resource_3 focus = AST_resource_4 }
+		mutually_exclusive = { focus =  }
+		x = 2
+		y = 1
+		relative_position_id = AST_resource_3
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			872 = {
+				add_resource = {
+					type = steel
+					amount = 7
+				}
+			}
+			add_autonomy_ratio = {
+				value = 0.05
+				localization = AST_never_another_gallipoli
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_resource_6
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_resource_5 }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_resource_5
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = AST_resourch_min
+		}
+	}
+	
+	focus = {
+		id = AST_military_aid_1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_military_aid }
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = AST_military_aid
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_autonomy_ratio = {
+				value = 0.05
+				localization = AST_never_another_gallipoli
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_military_aid_2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_military_aid }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_military_aid
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_autonomy_ratio = {
+				value = 0.05
+				localization = AST_never_another_gallipoli
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_military_aid_3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_military_aid_1 focus = AST_military_aid_2 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_military_aid_1
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_military_aid_4
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_military_aid_3 }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_military_aid_3
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = AST_move_up_factories
+		}
+	}
+	
+	focus = {
+		id = AST_military_aid_5
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_military_aid_4 }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_military_aid_4
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_legacy_of_australia_1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_civilian_aid_9 }
+		prerequisite = { focus = AST_resource_6}
+		prerequisite = { focus = AST_military_aid_5 }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_resource_6
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = AST_loa_2
+		}
+	}
+	
+	focus = {
+		id = AST_legacy_of_australia_2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_legacy_of_australia_1 }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_legacy_of_australia_1
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+			remove_ideas = AST_great_depression_1
+		}
+	}
+	
+	#####################
+	###	War Lord
+	#####################
+	
+	focus = {
+		id = AST_australian_warlords
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 2
+		
+		prerequisite = { 
+			focus = AST_communist_8 
+			focus = AST_fascist_australia_1 
+			focus = AST_king_43 
+			
+		}
+		relative_position_id = AST_communist_8
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+		cost = 4.5
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_autonomy_ratio = {
+				value = 0.2
+				localization = AST_never_another_gallipoli
+			}
+			add_ideas = AST_australian_warlords
+		}
+	}
+	
+	focus = {
+		id = AST_buy_new_zealand
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_australian_warlords}
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = AST_australian_warlords
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			num_of_civilian_factories > 7
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			ENG = { country_event = { id = AST.1 } }
+		}
+	}
+	
+	focus = {
+		id = AST_take_new_zealand
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_australian_warlords}
+		mutually_exclusive = { }
+		x = 1
+		y = 1
+		relative_position_id = AST_australian_warlords
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_completed_focus = AST_buy_new_zealand
+			NZR = {
+				is_puppet_of = ENG
+			}
+			NOT = {
+				723 = {
+					is_controlled_by = AST
+				}
+				284 = {
+					is_controlled_by = AST
+				}
+				726= {
+					is_controlled_by = AST
+				}
+			}
+		}			
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			create_wargoal = { 
+				type = annex_everything 
+				target = NZL
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_buy_eng_islands
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_buy_new_zealand focus = AST_take_new_zealand }
+		mutually_exclusive = { }
+		x = 1
+		y = 1
+		relative_position_id = AST_buy_new_zealand
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			num_of_civilian_factories > 4
+		}			
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			ENG = { country_event = { id = AST.4 } }
+		}
+	}
+	
+	focus = {
+		id = AST_buy_fra_islands
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_buy_eng_islands }
+		mutually_exclusive = { }
+		x = -1
+		y = 1
+		relative_position_id = AST_buy_eng_islands
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			num_of_civilian_factories > 7
+		}			
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			FRA = { country_event = { id = AST.7 } }
+		}
+	}
+	
+	focus = {
+		id = AST_buy_por_islands
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_buy_eng_islands }
+		mutually_exclusive = { }
+		x = 1
+		y = 1
+		relative_position_id = AST_buy_eng_islands
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			num_of_civilian_factories > 2
+		}			
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			POR = { country_event = { id = AST.10 } }
+		}
+	}
+	
+	focus = {
+		id = AST_buy_jap_islands
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_buy_por_islands focus = AST_buy_fra_islands }
+		mutually_exclusive = { }
+		x = 0
+		y = 1
+		relative_position_id = AST_buy_fra_islands
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			num_of_civilian_factories > 5
+		}			
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			JAP = { country_event = { id = AST.13 } }
+		}
+	}
+	
+	focus = {
+		id = AST_take_jap_islands
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_buy_por_islands focus = AST_buy_fra_islands }
+		mutually_exclusive = { }
+		x = 0
+		y = 1
+		relative_position_id = AST_buy_por_islands
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_completed_focus = AST_buy_jap_islands
+			NOT = {
+				633 = {
+					is_controlled_by = AST
+				}
+				684 = {
+					is_controlled_by = AST
+				}
+				647 = {
+					is_controlled_by = AST
+				}
+				646 = {
+					is_controlled_by = AST
+				}
+			}
+		}			
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			create_wargoal = { 
+				type = annex_everything 
+				target = JAP
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_attack_dutch_east_indies
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_buy_jap_islands focus = AST_take_jap_islands }
+		mutually_exclusive = { }
+		x = 1
+		y = 1
+		relative_position_id = AST_buy_jap_islands
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}			
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			create_wargoal = { 
+				type = annex_everything 
+				target = INS
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_gain_core
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_buy_jap_islands focus = AST_take_jap_islands }
+		mutually_exclusive = { }
+		x = 1
+		y = 1
+		relative_position_id = AST_buy_jap_islands
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}			
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			634 = {add_core_of = ISR}
+			737 = {add_core_of = ISR}
+			669 = {add_core_of = ISR}
+			738 = {add_core_of = ISR}
+			668 = {add_core_of = ISR}
+			667 = {add_core_of = ISR}
+			673 = {add_core_of = ISR}
+			335 = {add_core_of = ISR}
+			334 = {add_core_of = ISR}
+			672 = {add_core_of = ISR}
+		}
+	}
+
+	############################
+	####### ARMY SECTION #######
+	############################
+	
+	focus = {
+		id = AST_army_focus
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 30
+		y = 0
+		relative_position_id = 
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_command_power = 25
+			army_experience = 25
+			air_experience = 10
+			navy_experience = 10
+		}
+	}
+	
+	focus = {
+		id = AST_army_focus1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_army_focus }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_army_focus
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_ideas = AST_army1
+		}
+	}
+	
+	focus = {
+		id = AST_army_focus2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_army_focus1 }
+		mutually_exclusive = { focus = }
+		x = -2
+		y = 1
+		relative_position_id = AST_army_focus1
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = AST_mech
+				bonus = 1.0
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_army_focus3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_army_focus1 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_army_focus1
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			division_template = {
+				name = "AST-Light-Tank"
+				division_names_group = AST_Light_01
+				priority = 2
+
+				regiments = {
+					light_armor = { x = 0 y = 0 }
+					light_armor = { x = 0 y = 1 }
+					light_armor = { x = 0 y = 2 }
+					light_armor = { x = 0 y = 0 }
+					light_armor = { x = 1 y = 1 }
+					light_armor = { x = 2 y = 2 }
+					motorized = { x = 2 y = 0 }
+					motorized = { x = 2 y = 1 }
+					motorized = { x = 2 y = 2 }
+
+				}
+				support = {
+				}
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"1. Light-Tank-Division\" division_template = \"AST-Light-Tank\" start_experience_factor = 0.2" 
+					owner = AST
+				}
+				create_unit = {
+					division = "name = \"2. Light-Tank-Division\" division_template = \"AST-Light-Tank\" start_experience_factor = 0.2" 
+					owner = AST
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_army_focus4
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_army_focus1 }
+		mutually_exclusive = { focus = }
+		x = 2
+		y = 1
+		relative_position_id = AST_army_focus1
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = AST_infantry1
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				name = AST_infantry1
+				bonus = 1.0
+				uses = 1
+				category = infantry_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_army_focus5
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_army_focus2 focus = AST_army_focus3 focus = AST_army_focus4 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_army_focus3
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			army_experience = 10
+			add_ideas = AST_recarne_artilery
+			add_tech_bonus = {
+				name = artillery_bonus
+				ahead_reduction = 0.25
+				bonus = 0.75
+				uses = 1
+				category = artillery
+			}
+			add_tech_bonus = {
+                name = AST_artillery_modernization
+                bonus = 1
+                uses = 1
+				category = cat_anti_air
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_army_focus6
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_army_focus5}
+		mutually_exclusive = { focus = }
+		x = -1
+		y = 1
+		relative_position_id = AST_army_focus5
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = AST_army_focus7
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_army_focus5}
+		mutually_exclusive = { focus = }
+		x = 1
+		y = 1
+		relative_position_id = AST_army_focus5
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_army_focus8
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_army_focus6}
+		prerequisite = { focus = AST_army_focus7}
+		mutually_exclusive = { focus = }
+		x = 1
+		y = 1
+		relative_position_id = AST_army_focus6
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = AST_counter_armor
+				ahead_reduction = 2.0
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+	############################
+	####### AIR SECTION ########
+	############################
+	focus = {
+		id = AST_air_focus1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_army_focus}
+		mutually_exclusive = { focus = }
+		x = -7
+		y = 1
+		relative_position_id = AST_army_focus
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_air_focus2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_air_focus1 }
+		mutually_exclusive = { focus = }
+		x = -2
+		y = 1
+		relative_position_id = AST_air_focus1
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			set_technology = {
+				basic_small_airframe = 1
+			}
+		}
+	}
+	focus = {
+		id = AST_air_focus3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_air_focus1 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_air_focus1
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			set_technology = {
+				basic_medium_airframe = 1
+			}
+		}
+	}
+	focus = {
+		id = AST_air_focus4
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_air_focus1 }
+		mutually_exclusive = { focus = }
+		x = 2
+		y = 1
+		relative_position_id = AST_air_focus1
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			set_technology = {
+				basic_large_airframe = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_air_focus5
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_air_focus2 }
+		prerequisite = { focus = AST_air_focus3 }
+		prerequisite = { focus = AST_air_focus4 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_air_focus3
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ISR_entfalten_jagdgeschwader
+				bonus = 0.5
+				uses = 3
+				category = air_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_air_focus6
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_air_focus5 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_air_focus5
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_ideas = AST_air1
+		}
+	}
+	focus = {
+		id = AST_air_focus7
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_air_focus6 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_air_focus6
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = AST_airbonus
+				bonus = 1.5
+				uses = 1
+				category = medium_air
+			}
+		}
+	}
+
+
+	############################
+	###### NAVY SECTION ########
+	############################
+	focus = {
+		id = AST_naval_focus1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_army_focus }
+		mutually_exclusive = { focus = }
+		x = 7
+		y = 1
+		relative_position_id = AST_army_focus
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			navy_experience = 15
+			add_tech_bonus = {
+				name = AST_naval1
+				bonus = 1.5
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_naval_focus2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_naval_focus1 }
+		mutually_exclusive = { focus = AST_naval_focus3}
+		x = -2
+		y = 1
+		relative_position_id = AST_naval_focus1
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ISR_submarine
+				bonus = 1.5
+				ahead_reduction = 1.0
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+	focus = {
+		id = AST_naval_focus3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_naval_focus1 }
+		mutually_exclusive = { focus = AST_naval_focus2}
+		x = 2
+		y = 1
+		relative_position_id = AST_naval_focus1
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = AST_carrier
+				bonus = 1.5
+				ahead_reduction = 1.0
+				uses = 1
+				category = cv_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_naval_focus4
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_naval_focus2 focus = AST_naval_focus3}
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_naval_focus2
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_naval_focus5
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_naval_focus2 focus = AST_naval_focus3}
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_naval_focus3
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = AST_naval_equipment
+				bonus = 1.0
+				uses = 1
+				category = naval_equipment
+			}
+		}
+	}
+	focus = {
+		id = AST_naval_focus6
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_naval_focus4 focus = AST_naval_focus5 }
+		mutually_exclusive = { focus = }
+		x = 2
+		y = 1
+		relative_position_id = AST_naval_focus4
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_ideas = AST_naval1
+		}
+	}
+	
+	focus = {
+		id = AST_naval_focus7
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_naval_focus6 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_naval_focus6
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+
+	############################
+	#### GO WITH UK SECTION ####
+	############################
+
+	focus = {
+		id = AST_support_the_policy_of_appeasement
+		icon = GFX_goal_generic_improve_relations
+		mutually_exclusive = { focus = AST_never_another_gallipoli }
+		x = 1
+		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				NOT = { ENG = { has_government = democratic } } #less likely to do if ENG not democratic
+				factor = 0.5
+			}
+			modifier = {
+				OR = {
+					communism > 0.15
+					fascism > 0.15
+					}
+				factor = 0.2
+			}
+		}
+
+		available = {
+			OR = {
+				is_subject_of = ENG
+				AND = {
+					has_global_flag = ENG_decolonized
+					is_in_faction_with = ENG
+				}
+			}
+			ENG = { has_war = no }
+		}
+		
+		bypass = {
+			is_subject_of = ENG
+			has_war_together_with = ENG
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {			
+			modify_tech_sharing_bonus = {
+ 				id = commonwealth_research
+ 				bonus = 0.03
+			}
+			ENG = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = AST_support_the_policy_of_appeasement
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AST_strengthen_ties_with_uk
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		prerequisite = { focus = AST_support_the_policy_of_appeasement }
+		relative_position_id = AST_support_the_policy_of_appeasement
+		x = -1
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				ENG = { NOT = { has_government = democratic } }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject_of = ENG
+			OR = {
+				is_subject_of = ENG
+				AND = {
+					has_global_flag = ENG_decolonized
+					is_in_faction_with = ENG
+				}
+			}
+			OR = {
+				ENG = { has_idea = ENG_george_vi }
+				ENG = { has_country_flag = edward_viii_married_wallis_simpson }
+			}
+		}
+		
+		bypass = {
+			NOT = {
+				OR = {
+					is_subject_of = ENG
+					is_in_faction_with = ENG
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER }
+
+		completion_reward = {
+			if = { 
+				limit = {
+					ENG = { has_idea = ENG_george_vi }
+					}
+					country_event = { id = tfv_australia.90 }
+					}
+			if = { 
+				limit = {
+					ENG = { has_country_flag = edward_viii_married_wallis_simpson } 
+					}
+					country_event = { id = tfv_australia.92 } 
+				}
+			}
+		}
+
+	focus = {
+		id = AST_the_singapore_strategy
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = AST_support_the_policy_of_appeasement }
+		x = 1
+		y = 1
+		relative_position_id = AST_support_the_policy_of_appeasement
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 0.2
+		}
+
+		available = {
+			is_in_faction_with = ENG
+			ENG = { has_government = ROOT }
+			MAL = {
+				is_puppet_of = ENG
+			}
+		}
+		
+		bypass = {
+			OR = {
+				NOT = {
+					OR = {
+						336 = {
+							is_owned_by = MAL
+						}
+						333 = {
+							is_owned_by = MAL
+						}
+					}
+				}
+				NOT = {
+					MAL = {
+						is_puppet_of = ENG
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			ENG = {
+				country_event = { id = tfv_australia.1 }
+			}
+		}
+	}
+
+	focus = {
+		id = AST_adopt_westminster
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = AST_strengthen_ties_with_uk focus = AST_the_singapore_strategy }
+		x = 0
+		y = 2
+		relative_position_id = AST_support_the_policy_of_appeasement
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			OR = {
+				is_subject_of = ENG
+				AND = {
+					has_global_flag = ENG_decolonized
+					is_in_faction_with = ENG
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_TFV_AUTONOMY }
+
+		completion_reward = {
+			add_political_power = 120
+			add_autonomy_ratio = {
+				value = 0.1
+				localization = AST_adopt_westminster
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = AST_arthur_calwell
+		}
+	}
+
+	focus = {
+		id = AST_CSIR
+		icon = GFX_goal_tfv_generic_tech_sharing
+		prerequisite = { focus = AST_adopt_westminster }
+		x = -1
+		y = 3
+		relative_position_id = AST_support_the_policy_of_appeasement
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			OR = {
+				is_subject_of = ENG
+				AND = {
+					has_global_flag = ENG_decolonized
+					is_in_faction_with = ENG
+				}
+			}
+			is_in_tech_sharing_group = commonwealth_research
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			AST = {
+  				modify_tech_sharing_bonus = {
+     				id = commonwealth_research
+     				bonus = 0.05  
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AST_swpa_protector
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = AST_adopt_westminster }
+		x = 1
+		y = 3
+		relative_position_id = AST_support_the_policy_of_appeasement
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				NOT = { AST = { has_completed_focus = AST_the_singapore_strategy } } #ENG can defend its own stuff!
+				factor = 0.2
+			}
+		}
+
+		available = {
+			OR = {
+				is_subject_of = ENG
+				AND = {
+					has_global_flag = ENG_decolonized
+					is_in_faction_with = ENG
+				}
+			}
+			336 = {
+				controller = { is_in_faction_with = ROOT }
+			}
+			333 = {
+				controller = { is_in_faction_with = ROOT }
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+
+		completion_reward = {
+			336 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+
+				#Fortify entire coastline
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+
+				#border inland bunker
+				add_building_construction = {
+					type = bunker
+					province = 4310
+					level = 2
+					instant_build = yes
+				}
+
+				#Extra fort on naval bases
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+
+			}
+
+			333 = {
+				#Fortify entire coastline
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+
+				#Extra fort on naval bases
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AST_empire_air_training_scheme
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = AST_CSIR focus = AST_swpa_protector }
+		x = -1
+		y = 4
+		relative_position_id = AST_support_the_policy_of_appeasement
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			OR = {
+				is_subject_of = ENG
+				AND = {
+					has_global_flag = ENG_decolonized
+					is_in_faction_with = ENG
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+
+		completion_reward = {
+			add_ideas = AST_empire_air_training_scheme
+		}
+	}
+
+	focus = {
+		id = AST_commonwealth_aircraft_corporation
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = AST_CSIR focus = AST_swpa_protector }
+		x = 1
+		y = 4
+		relative_position_id = AST_support_the_policy_of_appeasement
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			OR = {
+				is_subject_of = ENG
+				AND = {
+					has_global_flag = ENG_decolonized
+					is_in_faction_with = ENG
+				}
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_ideas = AST_commonwealth_aircraft_corporation
+		}
+	}
+
+	############################
+	#### LEAVE COMMONWEALTH ####
+	############################
+	
+	focus = {
+		id = AST_never_another_gallipoli
+		icon = GFX_focus_AST_never_gallipoli
+		mutually_exclusive = { focus = AST_support_the_policy_of_appeasement }
+		x = 14
+		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 0.5 
+			modifier = {
+				OR = {
+						fascism > 0.25
+						communism > 0.25
+					}
+				factor = 20
+			}
+			modifier = {
+				OR = {
+						fascism > 0.45
+						communism > 0.45
+					}
+				factor = 30
+			}
+			modifier = {
+				NOT = { ENG = { has_government = democratic } } 
+				factor = 5
+			}
+		}
+
+		available = {
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+		
+		bypass = {
+			NOT = { is_subject_of = ENG }
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY }
+
+		completion_reward = {
+			set_rule = { can_decline_call_to_war = yes }
+			add_autonomy_ratio = {
+				value = 0.2
+				localization = AST_never_another_gallipoli
+			}
+			hidden_effect = {
+				news_event = { id = news.253 hours = 5 }
+			}
+			add_popularity = {
+    			ideology = fascism
+    			popularity = 0.1
+			}
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.1
+			}
+			add_popularity = {
+    			ideology = neutrality
+    			popularity = 0.1
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_befriend_england
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_never_another_gallipoli}
+		mutually_exclusive = { focus =  }
+		x = -3
+		y = 1
+		relative_position_id = AST_never_another_gallipoli
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			NOT = {
+				is_in_faction_with = ENG
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = ENG
+				modifier = medium_increase
+			}
+			ENG = {
+				country_event = { id = generic.2 }
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_against_england
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_never_another_gallipoli}
+		mutually_exclusive = { focus =  }
+		x = 3
+		y = 1
+		relative_position_id = AST_never_another_gallipoli
+
+		cost = 4.5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {	
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = ENG
+				modifier = medium_decrease 
+			}
+			create_wargoal = { 
+				type = annex_everything 
+				target = ENG
+			}
+		}
+	}
+
+
+	############################
+	#### GO WITH US SECTION ####
+	############################
+
+	focus = {
+		id = AST_protect_the_homeland
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = AST_never_another_gallipoli }
+		mutually_exclusive = { focus = AST_abandon_the_westminster_system }
+		x = -9
+		y = 2
+		relative_position_id = AST_never_another_gallipoli
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = AST_homeland_defense_tt
+			hidden_effect = {
+				every_owned_state =	{
+					limit = {
+						is_controlled_by = ROOT
+						is_on_continent = australia
+						is_in_home_area = yes
+					}
+					#Fortify entire coastline
+					add_building_construction = {
+						type = bunker
+						province = {
+							all_provinces = yes
+							limit_to_coastal = yes
+						}
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						province = {
+							all_provinces = yes
+							limit_to_coastal = yes
+						}
+						level = 2
+						instant_build = yes
+					}
+	
+					#Extra fort on naval bases
+					add_building_construction = {
+						type = bunker
+						province = {
+							all_provinces = yes
+							limit_to_naval_base = yes
+						}
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						province = {
+							all_provinces = yes
+							limit_to_naval_base = yes
+						}
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AST_the_swpa_menace
+		icon = GFX_goal_generic_trade
+		prerequisite = { focus = AST_protect_the_homeland }
+		x = -1
+		y = 1
+		relative_position_id = AST_protect_the_homeland
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			JAP = {			
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = AST_the_swpa_menace
+				}
+			}
+			USA = {
+				add_opinion_modifier = {
+					target = JAP
+					modifier = AST_the_swpa_menace_boycot_JAP
+				}
+				add_opinion_modifier = {
+					target = JAP
+					modifier = AST_the_swpa_menace
+				}
+			}
+			add_opinion_modifier = {
+				target = JAP
+				modifier = AST_the_swpa_menace_boycot_JAP
+			}
+			add_opinion_modifier = {
+				target = JAP
+				modifier = AST_the_swpa_menace
+			}
+		}
+	}
+
+	focus = {
+		id = AST_sever_ties_with_uk
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		prerequisite = { focus = AST_protect_the_homeland }
+		x = 1
+		y = 1
+		relative_position_id = AST_protect_the_homeland
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			if = {
+				limit = { NOT = { has_government = fascism } }
+				has_autonomy_state = autonomy_dominion
+			}
+			if = {
+				limit = { has_government = fascism }
+				has_autonomy_state = autonomy_satellite
+			}
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+		
+		bypass = {
+			has_war_with = ENG
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY }
+
+		completion_reward = {
+			OVERLORD = {
+				set_autonomy = {
+					target = AST
+					autonomy_state = autonomy_free
+				}
+			}
+			ENG = { remove_from_faction = ROOT }
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = AST_arthur_calwell
+			hidden_effect = {
+				news_event = { id = news.286 hours = 6}
+			}
+		}
+	}
+
+	focus = {
+		id = AST_woo_usa
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = AST_the_swpa_menace }
+		prerequisite = { focus = AST_sever_ties_with_uk }
+		x = -1
+		y = 2
+		relative_position_id = AST_protect_the_homeland
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_in_faction = no
+				factor = 10 #we're all alone here!
+			}
+		}
+
+		available = {
+			NOT = {
+				has_war_with = USA
+			}
+			USA = { 
+				has_government = ROOT
+				is_puppet = no
+			}
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+		
+		bypass = {
+			OR = {
+				USA = { exists = no }
+				USA = {
+					AND = {
+						is_in_faction = yes
+						NOT = {
+							is_in_faction_with = AST
+						}
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			USA = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = AST_woo_usa
+				}
+			}
+			add_opinion_modifier = {
+				target = USA
+				modifier = AST_woo_usa
+			}
+		}
+	}
+
+	focus = {
+		id = AST_protect_the_dutch_colonies
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = AST_sever_ties_with_uk }
+		x = 1
+		y = 2
+		relative_position_id = AST_protect_the_homeland
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			NOT = { has_war_with = HOL }
+			HOL = { has_capitulated = yes }
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+		
+		bypass = {
+			INS = {
+				OR = {
+					NOT = { is_puppet_of = HOL }
+					exists = no
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			HOL = {
+				country_event = { id = tfv_australia.10 }
+			}
+		}
+	}
+
+	focus = {
+		id = AST_the_south_west_pacific_initiative
+		icon = GFX_goal_anschluss
+		prerequisite = { focus = AST_woo_usa focus = AST_protect_the_dutch_colonies }
+		x = 0
+		y = 3
+		relative_position_id = AST_protect_the_homeland
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			create_faction = south_west_pacific_initiative
+			if = {
+				limit = {
+					has_completed_focus = AST_protect_the_dutch_colonies
+					INS = { is_puppet_of = AST }
+				}
+				set_country_flag = INS_is_a_puppet
+			}
+			if = {
+				limit = {
+					has_completed_focus = AST_woo_usa
+					USA = {
+						exists = yes
+						has_capitulated = no
+						is_puppet = no
+						has_government = ROOT
+						OR = {
+							is_in_faction = no
+							has_war = no
+						}
+					}
+				}
+				USA = {
+					country_event = { id = tfv_australia.32 } #Ask USA to join faction
+				}
+				else = {
+					country_event = { id = tfv_australia.31 } #Start faction without asking USA
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AST_research_cooperation
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = AST_the_south_west_pacific_initiative }
+		x = 0
+		y = 4
+		relative_position_id = AST_protect_the_homeland
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+		custom_effect_tooltip = AST_swpi_research_tt
+			if = {
+				limit = { AST = { is_in_faction_with = USA } }
+				add_to_tech_sharing_group = us_research
+				USA = { add_to_tech_sharing_group = us_research }
+				else = {
+					AST = { add_to_tech_sharing_group = swpi_research }
+					if = {
+						limit = { all_country = { is_in_faction_with = AST } }
+						add_to_tech_sharing_group = swpi_research 
+						}
+					}
+			}
+		}
+	}
+
+	focus = {
+		id = AST_preemptive_intervention
+		icon = GFX_focus_AST_war_japan
+		prerequisite = { focus = AST_research_cooperation }
+		x = 0
+		y = 5
+		relative_position_id = AST_protect_the_homeland
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			NOT = {
+				JAP = { has_government = ROOT }
+			}
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = topple_government
+				target = JAP
+				expire = 0
+			}
+		}
+	}
+
+	###########################################
+	##### Fascist/Communist/Aggresive King ####
+	###########################################
+	
+	focus = {
+		id = AST_abandon_the_westminster_system
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = AST_never_another_gallipoli }
+		mutually_exclusive = { focus = AST_protect_the_homeland }
+		x = 9
+		y = 2
+		relative_position_id = AST_never_another_gallipoli
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				OR = {
+					communism > 0.2
+					fascism > 0.2
+					}
+				factor = 20
+			}
+			modifier = {
+				OR = {
+					communism > 0.4
+					fascism > 0.4
+					}
+				factor = 20
+			}
+		}
+
+		available = {
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY }
+
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = communism 
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+			add_timed_idea = { days = 1095 idea = AST_abandon_the_westminster_system } 
+		}
+	}
+
+	############################
+	#### GO FASCIST SECTION ####
+	############################
+
+	focus = {
+		id = AST_fascist_australia
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_abandon_the_westminster_system}
+		mutually_exclusive = { focus = AST_elect_a_king focus = AST_communist_australia }
+		x = -9
+		y = 1
+		relative_position_id = AST_abandon_the_westminster_system
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			fascism > 0.35
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = AST_fascist_influence
+		}
+	}
+	
+	focus = {
+		id = AST_befriend_germany
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_fascist_australia}
+		mutually_exclusive = { focus = AST_befriend_italy focus = AST_befriend_japan }
+		x = -4
+		y = 1
+		relative_position_id = AST_fascist_australia
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			GER = {
+				country_event = AST.x
+			} 
+		}
+	}
+	
+	focus = {
+		id = AST_befriend_japan
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_fascist_australia}
+		mutually_exclusive = { focus = AST_befriend_italy focus = AST_befriend_germany }
+		x = 0
+		y = 1
+		relative_position_id = AST_fascist_australia
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			JAP = {
+				country_event = AST.x
+			} 
+		}
+	}
+	
+	focus = {
+		id = AST_befriend_italy
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_fascist_australia}
+		mutually_exclusive = { focus = AST_befriend_germany focus = AST_befriend_japan }
+		x = 4
+		y = 1
+		relative_position_id = AST_fascist_australia
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			ITA = {
+				country_event = AST.x
+			} 
+		}
+	}
+	
+	focus = {
+		id = AST_germany_1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_befriend_germany }
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = AST_befriend_germany
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_germany_2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_befriend_germany}
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_befriend_germany
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_germany_3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_germany_1 focus = AST_germany_2 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_germany_1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_germany_4
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_germany_3 }
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = AST_germany_3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_germany_5
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_germany_3 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_germany_3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_germany_6
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_germany_4 focus = AST_germany_5 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_germany_4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_italy_1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_befriend_italy }
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = AST_befriend_italy
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_italy_2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_befriend_italy}
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_befriend_italy
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_italy_3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_italy_1 focus = AST_italy_2 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_italy_1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_italy_4
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_italy_3 }
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = AST_italy_3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_italy_5
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_italy_3 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_italy_3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_italy_6
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_italy_4 focus = AST_italy_5 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_italy_4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_japan_1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_befriend_japan }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_befriend_japan
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_japan_2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_japan_1 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_japan_1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_japan_3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_japan_1 }
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = AST_japan_1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_japan_4
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_japan_2 focus = AST_japan_3 }
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_japan_3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_japan_5
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_japan_4 }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_japan_4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_fascist_australia_1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_japan_5 focus = AST_germany_6 focus = AST_italy_6}
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = AST_japan_5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	##############################
+	#### GO COMMUNIST SECTION ####
+	##############################
+
+	focus = {
+		id = AST_communist_australia
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_abandon_the_westminster_system}
+		mutually_exclusive = { focus = AST_elect_a_king focus = AST_fascist_australia }
+		x = 0
+		y = 1
+		relative_position_id = AST_abandon_the_westminster_system
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			communism > 0.35
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = AST_communist_influence
+		}
+	}
+	
+	focus = {
+		id = AST_communist_1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_communist_australia}
+		mutually_exclusive = { focus = }
+		x = -1
+		y = 1
+		relative_position_id = AST_communist_australia
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_communist_2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_communist_australia}
+		mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = AST_communist_australia
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_communist_3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_communist_1 focus = AST_communist_2 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_communist_1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_communist_4
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_communist_1 focus = AST_communist_2 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_communist_2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_communist_5
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_communist_3 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_communist_3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_communist_6
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_communist_4 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_communist_4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_communist_7
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_communist_5 }
+		prerequisite = { focus = AST_communist_6 }
+		mutually_exclusive = { focus = }
+		x = 1
+		y = 1
+		relative_position_id = AST_communist_5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_communist_8
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_communist_7 }
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_communist_7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	###################################
+	#### GO AGGRESIVE kING SECTION ####
+	###################################
+
+	focus = {
+		id = AST_elect_a_king
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_abandon_the_westminster_system}
+		mutually_exclusive = { focus = AST_fascist_australia focus = AST_communist_australia }
+		x = 9
+		y = 1
+		relative_position_id = AST_abandon_the_westminster_system
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			neutrality > 0.35
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = AST_king_influence
+		}
+	}
+
+	focus = {
+		id = AST_king_1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_elect_a_king }
+		mutually_exclusive = { focus = AST_king_2 focus = AST_king_3 }
+		x = -4
+		y = 1
+		relative_position_id = AST_elect_a_king
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			retire_country_leader = yes # Assumes that the political party whose leadership changes is currently ruling.
+			add_country_leader_role = {
+				character = AST_King_Leofric  # Must be recruited
+				promote_leader = yes
+				country_leader = {
+					ideology = monarchism
+					traits = { underage_monarch }
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id =AST_king_2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_elect_a_king }
+		mutually_exclusive = { focus = AST_king_1 focus = AST_king_3 }
+		x = 0
+		y = 1
+		relative_position_id = AST_elect_a_king
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			retire_country_leader = yes # Assumes that the political party whose leadership changes is currently ruling.
+			add_country_leader_role = {
+				character = AST_king_Ealdren  # Must be recruited
+				promote_leader = yes
+				country_leader = {
+					ideology = monarchism
+					traits = { underage_monarch }
+				}
+			}
+		}
+	}
+	focus = {
+		id = AST_king_3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_elect_a_king}
+		mutually_exclusive = { focus = AST_king_2 focus = AST_king_1 }
+		x = 4
+		y = 1
+		relative_position_id = AST_elect_a_king
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			retire_country_leader = yes # Assumes that the political party whose leadership changes is currently ruling.
+			add_country_leader_role = {
+				character = AST_king_Wulfric  # Must be recruited
+				promote_leader = yes
+				country_leader = {
+					ideology = monarchism
+					traits = { underage_monarch }
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = AST_king_11
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_king_1}
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_king_1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_king_12
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_king_11}
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_king_11
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_king_21
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_king_2}
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_king_2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_king_22
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_king_21}
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_king_21
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_king_31
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_king_3}
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_king_3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_king_32
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_king_31}
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_king_31
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_king_4
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_king_12}
+		prerequisite = { focus = AST_king_21}
+		prerequisite = { focus = AST_king_32}
+		mutually_exclusive = { focus = }
+		x = 0
+		y = 1
+		relative_position_id = AST_king_22
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_king_41
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_king_4}
+		mutually_exclusive = { focus = }
+		x = -1
+		y = 1
+		relative_position_id = AST_king_4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_king_42
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_king_4}
+		mutually_exclusive = { focus = }
+		x = 1
+		y = 1
+		relative_position_id = AST_king_4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = AST_king_43
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = AST_king_41}
+		prerequisite = { focus = AST_king_42}
+		mutually_exclusive = { focus = }
+		x = 1
+		y = 1
+		relative_position_id = AST_king_41
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+}		

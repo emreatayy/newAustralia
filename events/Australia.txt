@@ -1,0 +1,565 @@
+add_namespace = AST
+
+#New Zealand
+country_event = {
+	id = AST.1
+	title = "Australia wants to buy New Zealand"
+	desc = "Australia wants to buy the land of New Zealand from us for 6 Civilian Factory"
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "6 Civ!! Sure"
+		ai_chance = { base = 85}
+		AST = {
+			country_event = { hours = 2 id = AST.2 }
+		}
+	}
+	option = {
+		name = "No"
+		ai_chance = { base = 15 }	
+			AST = {
+			country_event = { hours = 2 id = AST.3 }
+		}
+	}
+}
+
+# UK Accepts
+country_event = {
+	id = AST.2
+	title = "UK accepts"
+	desc = ""
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "For Australia!"
+		723 = { add_core_of = AST }
+		AST = { transfer_state = 723 }
+		284 = { add_core_of = AST }
+		AST = { transfer_state = 284 }
+		726 = { add_core_of = AST }
+		AST = { transfer_state = 726 }
+		give_military_access = ENG
+		ENG = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		AST = {
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}
+}
+# UK Declines
+country_event = {
+	id = AST.3
+	title = "UK Declines"
+	desc = ""
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will back!"
+		723 = { add_core_of = AST }
+		284 = { add_core_of = AST }
+		726 = { add_core_of = AST }
+	}
+}
+
+# Eng Islands
+country_event = {
+	id = AST.4
+	title = "Australia wants to buy England's Islands Next To Australia"
+	desc = "Australia wants to buy the lands of Fiji, Ellice Islands, Gilberts Islands, Nauru, Cocoa Islands, Christmas Island from us for 3 Civilian Factory"
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "3 Civ!! Sure"
+		ai_chance = { base = 85}
+		AST = {
+			country_event = { hours = 2 id = AST.5 }
+		}
+	}
+	option = {
+		name = "No"
+		ai_chance = { base = 15 }	
+			AST = {
+			country_event = { hours = 2 id = AST.6 }
+		}
+	}
+}
+
+# UK Accepts
+country_event = {
+	id = AST.5
+	title = "UK accepts"
+	desc = ""
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "For Australia!"
+		636 = { add_core_of = AST }
+		AST = { transfer_state = 636 }
+		643 = { add_core_of = AST }
+		AST = { transfer_state = 643 }
+		639 = { add_core_of = AST }
+		AST = { transfer_state = 639 }
+		725 = { add_core_of = AST }
+		AST = { transfer_state = 725 }
+		712 = { add_core_of = AST }
+		AST = { transfer_state = 712 }
+		711 = { add_core_of = AST }
+		AST = { transfer_state = 711 }
+		give_military_access = ENG
+		ENG = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		AST = {
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}
+}
+# UK Declines
+country_event = {
+	id = AST.6
+	title = "UK Declines"
+	desc = ""
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will back!"
+		636 = { add_core_of = AST }
+		643 = { add_core_of = AST }
+		639 = { add_core_of = AST }
+		725 = { add_core_of = AST }
+		712 = { add_core_of = AST }
+		711 = { add_core_of = AST }
+	}
+}
+
+# France Islands
+country_event = {
+	id = AST.7
+	title = "Australia wants to buy France's Islands Next To Australia"
+	desc = "Australia wants to buy the lands of Kerguelen, New Caledonia And Nendo from us for 5 Civilian Factory"
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "5 Civ!! Sure"
+		ai_chance = { base = 85}
+		AST = {
+			country_event = { hours = 2 id = AST.8 }
+		}
+	}
+	option = {
+		name = "No"
+		ai_chance = { base = 15 }	
+			AST = {
+			country_event = { hours = 2 id = AST.9 }
+		}
+	}
+}
+
+# France Accepts
+country_event = {
+	id = AST.8
+	title = "France accepts"
+	desc = ""
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "For Australia!"
+		713 = { add_core_of = AST }
+		AST = { transfer_state = 713 }
+		635 = { add_core_of = AST }
+		AST = { transfer_state = 635 }
+		734 = { add_core_of = AST }
+		AST = { transfer_state = 734 }
+		give_military_access = FRA
+		FRA = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		AST = {
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}
+}
+# France Declines
+country_event = {
+	id = AST.9
+	title = "France Declines"
+	desc = ""
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will back!"
+		713 = { add_core_of = AST }
+		635 = { add_core_of = AST }
+		734 = { add_core_of = AST }
+	}
+}
+
+# Portugal
+country_event = {
+	id = AST.10
+	title = "Australia wants to buy Porutguese Timor"
+	desc = "Australia wants to buy the lands of Porutguese Timor from us for 1 Civilian Factory"
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "1 Civ!! Sure"
+		ai_chance = { base = 85}
+		AST = {
+			country_event = { hours = 2 id = AST.11 }
+		}
+	}
+	option = {
+		name = "No"
+		ai_chance = { base = 15 }	
+			AST = {
+			country_event = { hours = 2 id = AST.12 }
+		}
+	}
+}
+
+# Portugal Accepts
+country_event = {
+	id = AST.11
+	title = "Portugal accepts"
+	desc = ""
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "For Australia!"
+		721 = { add_core_of = AST }
+		AST = { transfer_state = 721 }
+
+		give_military_access = POR
+		POR = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		AST = {
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}
+}
+# Portugal Declines
+country_event = {
+	id = AST.12
+	title = "Portugal Declines"
+	desc = ""
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will back!"
+		721 = { add_core_of = AST }
+	}
+}
+# Japan Islands
+country_event = {
+	id = AST.13
+	title = "Australia wants to buy Japan's Islands Next To Australia"
+	desc = "Australia wants to buy the lands of Marshall Islands, Caroline Islands, Palau, Saipan  from us for 3 Civilian Factory"
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "3 Civ!! Sure"
+		ai_chance = { base = 85}
+		AST = {
+			country_event = { hours = 2 id = AST.14 }
+		}
+	}
+	option = {
+		name = "No"
+		ai_chance = { base = 15 }	
+			AST = {
+			country_event = { hours = 2 id = AST.15 }
+		}
+	}
+}
+
+# Japan Accepts
+country_event = {
+	id = AST.14
+	title = "Japan accepts"
+	desc = ""
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "For Australia!"	
+		633 = { add_core_of = AST }
+		AST = { transfer_state = 633 }
+		684 = { add_core_of = AST }
+		AST = { transfer_state = 684 }
+		647 = { add_core_of = AST }
+		AST = { transfer_state = 647 }
+		646 = { add_core_of = AST }
+		AST = { transfer_state = 646 }
+		give_military_access = JAP
+		JAP = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		AST = {
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			random_owned_controlled_state = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}
+}
+# Japan Declines
+country_event = {
+	id = AST.15
+	title = "Japan Declines"
+	desc = ""
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will back!"
+		633 = { add_core_of = AST }
+		684 = { add_core_of = AST }
+		647 = { add_core_of = AST }
+		646 = { add_core_of = AST }
+	}
+}
