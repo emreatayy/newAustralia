@@ -1372,15 +1372,15 @@
 		id = AST_australian_warlords
 		icon = GFX_goal_generic_construction
 		x = 0
-		y = 2
+		y = 1
 		
 		prerequisite = { 
-			focus = AST_communist_8 
-			focus = AST_fascist_australia_1 
-			focus = AST_king_43 
+			focus = AST_air_focus7
+			focus = AST_army_focus8
+			focus = AST_naval_focus7
 			
 		}
-		relative_position_id = AST_communist_8
+		relative_position_id = AST_army_focus8
 		
 
 		ai_will_do = {
@@ -1534,11 +1534,11 @@
 	focus = {
 		id = AST_buy_fra_islands
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = AST_buy_eng_islands }
+		prerequisite = { focus = AST_buy_new_zealand focus = AST_take_new_zealand }
 		mutually_exclusive = { }
 		x = -1
 		y = 1
-		relative_position_id = AST_buy_eng_islands
+		relative_position_id = AST_buy_new_zealand
 
 		cost = 1
 
@@ -1569,11 +1569,11 @@
 	focus = {
 		id = AST_buy_por_islands
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = AST_buy_eng_islands }
+		prerequisite = { focus = AST_buy_new_zealand focus = AST_take_new_zealand }
 		mutually_exclusive = { }
 		x = 1
 		y = 1
-		relative_position_id = AST_buy_eng_islands
+		relative_position_id = AST_take_new_zealand
 
 		cost = 1
 
@@ -1604,11 +1604,11 @@
 	focus = {
 		id = AST_buy_jap_islands
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = AST_buy_por_islands focus = AST_buy_fra_islands }
+		prerequisite = { focus = AST_buy_por_islands focus = AST_buy_fra_islands focus = AST_buy_eng_islands }
 		mutually_exclusive = { }
-		x = 0
+		x = -1
 		y = 1
-		relative_position_id = AST_buy_fra_islands
+		relative_position_id = AST_buy_eng_islands
 
 		cost = 1
 
@@ -1639,11 +1639,11 @@
 	focus = {
 		id = AST_take_jap_islands
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = AST_buy_por_islands focus = AST_buy_fra_islands }
+		prerequisite = { focus = AST_buy_por_islands focus = AST_buy_fra_islands focus = AST_buy_eng_islands }
 		mutually_exclusive = { }
-		x = 0
+		x = 1
 		y = 1
-		relative_position_id = AST_buy_por_islands
+		relative_position_id = AST_buy_eng_islands
 
 		cost = 10
 
@@ -1728,10 +1728,10 @@
 	focus = {
 		id = AST_gain_core
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = AST_buy_jap_islands focus = AST_take_jap_islands }
+		prerequisite = { focus = AST_attack_dutch_east_indies }
 		mutually_exclusive = { }
 		x = 1
-		y = 1
+		y = 2
 		relative_position_id = AST_buy_jap_islands
 
 		cost = 10
@@ -2764,7 +2764,7 @@
 		icon = GFX_goal_generic_improve_relations
 		mutually_exclusive = { focus = AST_never_another_gallipoli }
 		x = 1
-		y = 9
+		y = 11
 
 		cost = 10
 
@@ -3252,7 +3252,7 @@
 		icon = GFX_focus_AST_never_gallipoli
 		mutually_exclusive = { focus = AST_support_the_policy_of_appeasement }
 		x = 14
-		y = 9
+		y = 11
 
 		cost = 10
 
