@@ -563,3 +563,32 @@ country_event = {
 		646 = { add_core_of = AST }
 	}
 }
+
+### BeFriend Japan
+country_event = {
+	id = AST.16
+	title = "Australia Requests Renewal of Non-Aggression Pact"
+	desc = ""
+	picture = GFX_report_event_generic_read_write
+	 
+	is_triggered_only = yes
+	
+	option = {
+		name = "Yes"
+		JAP = {
+			diplomatic_relation = {
+	    		country = AST
+	    		relation = non_aggression_pact
+	    		active = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "No"
+	}
+}
+
+
+
+

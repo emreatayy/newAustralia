@@ -132,7 +132,7 @@ ideas = {
 			}
 		}
 		
-		AST_australian_warlords = { 
+		AST_warlords = { 
 
 			allowed = {
 				original_tag = AST
@@ -185,7 +185,7 @@ ideas = {
 			}
 		}
 		
-		AST_king_influence = { 
+		AST_kangaroo_comp = { 
 
 			allowed = {
 				original_tag = AST
@@ -197,8 +197,13 @@ ideas = {
 				
 			modifier = {
 				neutrality_drift = 0.02
-				production_speed_buildings_factor = 0.15
-				weekly_manpower = 1000
+				join_faction_tension = 1.0
+				guarantee_tension = -1.0
+				generate_wargoal_tension = 1.0
+				generate_wargoal_tension_against = 1.0
+				send_volunteers_tension = -1.0
+				send_volunteer_size = 24
+				lend_lease_tension = -1.0
 			}
 		}
 		AST_army1 = { 
@@ -274,6 +279,184 @@ ideas = {
 				navy_visibility = -0.1
 				navy_submarine_attack_factor = 0.1
 				navy_carrier_air_attack_factor = 0.1
+			}
+		}
+		
+		AST_company_1 = { 
+
+			allowed = {
+				original_tag = AST
+			}
+
+			picture = AST_move_up_factories
+				
+			removal_cost = -1
+				
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		
+		AST_equipment_discount = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+
+			removal_cost = -1
+			
+			equipment_bonus = {
+				infantry_weapons = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				heavy_air = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				ss_tech = {
+					build_cost_ic = -0.15 instant = yes
+				}
+			}
+		}
+		
+		AST_equipment_discount_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+
+			removal_cost = -1
+			
+			equipment_bonus = {
+				cat_light_armor = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				cat_medium_armor = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				cat_heavy_armor = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		
+		AST_equipment_discount_3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+
+			removal_cost = -1
+			
+			equipment_bonus = {
+				light_air = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				medium_air = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				heavy_air = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		
+		AST_equipment_discount_4 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_production_bonus
+
+			removal_cost = -1
+			
+			equipment_bonus = {
+				ss_tech = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+		}
+		
+		AST_friend_japan = { 
+
+			allowed = {
+			}
+
+			picture = AST_move_up_factories
+				
+			removal_cost = -1
+				
+			equipment_bonus = {
+				infantry_weapons = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ss_tech = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		
+		AST_friend_germany = { 
+
+			allowed = {
+			}
+
+			picture = AST_move_up_factories
+				
+			removal_cost = -1
+				
+			equipment_bonus = {
+				infantry_weapons = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		
+		AST_friend_italy = { 
+
+			allowed = {
+			}
+
+			picture = AST_move_up_factories
+				
+			removal_cost = -1
+				
+			equipment_bonus = {
+				infantry_weapons = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				heavy_air = {
+					build_cost_ic = -0.1 instant = yes
+				}
 			}
 		}
 	}

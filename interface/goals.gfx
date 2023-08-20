@@ -1,9 +1,110 @@
 spriteTypes = {	
-
-	#### Generic continuous goal icons
-
-	SpriteType = {
-	name = "GFX_AST_move_up_factories"
-	texturefile = "gfx/interface/goals/goal_continuous_air_production.dds"			
+	SpriteType = { 
+		name = "GFX_goal_legacy_of_australia"
+		texturefile = "gfx/interface/goals/legacy_of_australia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_civilian_aid"
+		texturefile = "gfx/interface/goals/civ_aid.dds"
+	}
+	SpriteType = { 
+		name = "GFX_research_slot"
+		texturefile = "gfx/interface/goals/research_slot.dds"
+	}
+	SpriteType = { 
+		name = "GFX_construction_1"
+		texturefile = "gfx/interface/goals/construction_1.png"
+	}
+	SpriteType = { 
+		name = "GFX_construction_2"
+		texturefile = "gfx/interface/goals/construction_2.png"
+	}
+	SpriteType = { 
+		name = "GFX_construction_3"
+		texturefile = "gfx/interface/goals/construction_3.dds"
+	}
+	SpriteType = { 
+		name = "GFX_factory_1"
+		texturefile = "gfx/interface/goals/factory_1.png"
+	}
+	SpriteType = { 
+		name = "GFX_factory_2"
+		texturefile = "gfx/interface/goals/factory_2.png"
+	}
+	SpriteType = { 
+		name = "GFX_factory_3"
+		texturefile = "gfx/interface/goals/factory_3.dds"
+	}
+	SpriteType = { 
+		name = "GFX_factory_4"
+		texturefile = "gfx/interface/goals/factory_4.png"
+	}
+	SpriteType = { 
+		name = "GFX_rubber_1"
+		texturefile = "gfx/interface/goals/rubber_1.png"
+	}
+	SpriteType = { 
+		name = "GFX_rubber_2"
+		texturefile = "gfx/interface/goals/rubber_2.png"
+	}
+	SpriteType = { 
+		name = "GFX_infrastructure_1"
+		texturefile = "gfx/interface/goals/infrastructure_1.png"
+	}
+	SpriteType = { 
+		name = "GFX_infrastructure_2"
+		texturefile = "gfx/interface/goals/infrastructure_2.dds"
+	}
+	SpriteType = { 
+		name = "GFX_infrastructure_3"
+		texturefile = "gfx/interface/goals/infrastructure_3.png"
+	}
+	SpriteType = { 
+		name = "GFX_oil_1"
+		texturefile = "gfx/interface/goals/oil_1.png"
+	}
+	SpriteType = { 
+		name = "GFX_oil_2"
+		texturefile = "gfx/interface/goals/oil_2.png"
+	}
+	SpriteType = { 
+		name = "GFX_oil_3"
+		texturefile = "gfx/interface/goals/oil_3.dds"
+	}
+	SpriteType = { 
+		name = "GFX_oil_4"
+		texturefile = "gfx/interface/goals/oil_4.dds"
+	}
+	SpriteType = { 
+		name = "GFX_tungsten_1"
+		texturefile = "gfx/interface/goals/tungsten_1.dds"
+	}
+	SpriteType = { 
+		name = "GFX_steel_1"
+		texturefile = "gfx/interface/goals/steel_1.dds"
+	}
+	SpriteType = { 
+		name = "GFX_resource_1"
+		texturefile = "gfx/interface/goals/resource_1.png"
+	}
+	SpriteType = { 
+		name = "GFX_dockyard_1"
+		texturefile = "gfx/interface/goals/dockyard_1.dds"
+	}
+	SpriteType = { 
+		name = "GFX_dockyard_2"
+		texturefile = "gfx/interface/goals/dockyard_2.png"
+	}
+	SpriteType = { 
+		name = "GFX_production_1"
+		texturefile = "gfx/interface/goals/production_1.dds"
+	}
+	SpriteType = { 
+		name = "GFX_production_2"
+		texturefile = "gfx/interface/goals/production_2.dds"
+	}
+	SpriteType = { 
+		name = "GFX_consumer_goods_1"
+		texturefile = "gfx/interface/goals/consumer_goods_1.dds"
 	}
 }
