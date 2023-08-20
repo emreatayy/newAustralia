@@ -1,0 +1,10 @@
+spriteTypes = {	
+	SpriteType = { 
+		name = "GFX_idea_legacy_of_australia"
+		texturefile = "gfx/interface/ideas/idea_legacy_of_australia.png"
+	}
+	SpriteType = { 
+		name = "GFX_idea_constructor_1"
+		texturefile = "gfx/interface/ideas/idea_factory_1.dds"
+	}
+}

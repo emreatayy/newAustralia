@@ -1,5 +1,0 @@
-l_english:
- AST_King_Leofric:0 "King Leofric I"
- AST_King_Ealdren:0 "King Ealdren I"
- AST_King_Wulfri:0 "King Wulfri I"
- AST_david_robertson:0 "Emre"

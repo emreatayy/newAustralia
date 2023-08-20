@@ -1,46 +1,4 @@
 characters={
-	AST_king_Leofric={
-		name="King Leofric I"
-		portraits={
-			civilian={
-				large=GFX_portrait_AST_john_curtin
-			}
-		}
-		country_leader={
-			ideology=socialism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-	
-	AST_king_Ealdren={
-		name="King Ealdren I"
-		portraits={
-			civilian={
-				large=GFX_portrait_AST_john_curtin
-			}
-		}
-		country_leader={
-			ideology=socialism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-	
-	AST_king_Wulfric={
-		name="King Wulfric I"
-		portraits={
-			civilian={
-				large=GFX_portrait_AST_john_curtin
-			}
-		}
-		country_leader={
-			ideology=socialism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
 	AST_john_curtin={
 		name=AST_john_curtin
 		portraits={

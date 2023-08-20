@@ -8,4 +8,6 @@ tags={
 	"Military"
 }
 name="newAustralia"
-supported_version="1.12.*"
+picture="thumbnail.png"
+supported_version="1.12.14"
+remote_file_id="3023349377"

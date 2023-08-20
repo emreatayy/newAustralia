@@ -1,5 +1,5 @@
 ﻿l_english:
-AST_fascism:0 "Centralist Australia"
+ AST_fascism:0 "Centralist Australia"
  AST_fascism_DEF:0 "Centralist Australia"
  AST_democratic:0 "Australia"
  AST_democratic_DEF:0 "Australia"
@@ -14,36 +14,5 @@ AST_fascism:0 "Centralist Australia"
  AST:0 "Australia"
  AST_DEF:0 "Australia"
  AST_ADJ:0 "Australian"
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ AST_kangaroo:0 "Kangaroo Comp."
+ AST_Kangaroo_long:0 "Kangaroo Company"

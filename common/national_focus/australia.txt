@@ -58,40 +58,19 @@
 	focus = {
 		id = AST_legacy_of_australia
 		icon = GFX_goal_legacy_of_australia
-		prerequisite = { focus = }
-		mutually_exclusive = { focus =  }
+
 		x = 9
 		y = 0
-		relative_position_id = 
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
 		}
 
-		available = {	
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
 		completion_reward = {
 			add_research_slot = 1
 			add_ideas = AST_loa_1
-			add_autonomy_ratio = {
-				value = 0.05
-				localization = AST_never_another_gallipoli
-			}
 		}
 	}
 	
@@ -104,7 +83,7 @@
 		y = 1
 		relative_position_id = AST_legacy_of_australia
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -155,7 +134,7 @@
 		y = 1
 		relative_position_id = AST_legacy_of_australia
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -196,7 +175,7 @@
 		y = 1
 		relative_position_id = AST_legacy_of_australia
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -247,7 +226,7 @@
 		y = 1
 		relative_position_id = AST_civilian_aid
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -303,7 +282,7 @@
 		y = 1
 		relative_position_id = AST_civilian_aid
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -374,7 +353,7 @@
 		y = 1
 		relative_position_id = AST_civilian_aid_1
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -425,7 +404,7 @@
 		y = 1
 		relative_position_id = AST_civilian_aid_1
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -465,7 +444,7 @@
 		y = 1
 		relative_position_id = AST_civilian_aid_2
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -516,7 +495,7 @@
 		y = 1
 		relative_position_id = AST_civilian_aid_3
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -565,7 +544,7 @@
 		y = 1
 		relative_position_id = AST_civilian_aid_4
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -605,7 +584,7 @@
 		y = 1
 		relative_position_id = AST_civilian_aid_5
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -674,7 +653,7 @@
 		y = 1
 		relative_position_id = AST_civilian_aid_7
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -737,7 +716,7 @@
 		y = 1
 		relative_position_id = AST_resource
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -804,7 +783,7 @@
 		y = 1
 		relative_position_id = AST_resource
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -871,7 +850,7 @@
 		y = 1
 		relative_position_id = AST_resource_1
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -912,7 +891,7 @@
 		y = 1
 		relative_position_id = AST_resource_2
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -953,7 +932,7 @@
 		y = 1
 		relative_position_id = AST_resource_3
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -998,7 +977,7 @@
 		y = 1
 		relative_position_id = AST_resource_5
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1034,7 +1013,7 @@
 		y = 1
 		relative_position_id = AST_military_aid
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1089,7 +1068,7 @@
 		y = 1
 		relative_position_id = AST_military_aid
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1144,7 +1123,7 @@
 		y = 1
 		relative_position_id = AST_military_aid_1
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1195,7 +1174,7 @@
 		y = 1
 		relative_position_id = AST_military_aid_3
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1231,7 +1210,7 @@
 		y = 1
 		relative_position_id = AST_military_aid_4
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1300,7 +1279,7 @@
 		y = 1
 		relative_position_id = AST_resource_6
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1336,7 +1315,7 @@
 		y = 1
 		relative_position_id = AST_legacy_of_australia_1
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1370,7 +1349,7 @@
 	
 	focus = {
 		id = AST_australian_warlords
-		icon = GFX_goal_generic_construction
+		icon = GFX_warlord
 		x = 0
 		y = 1
 		
@@ -1386,7 +1365,7 @@
 		ai_will_do = {
 			factor = 1
 		}
-		cost = 4.5
+		cost = 5.3
 		available = {
 		}
 		
@@ -1409,14 +1388,14 @@
 	
 	focus = {
 		id = AST_buy_new_zealand
-		icon = GFX_goal_generic_construction
+		icon = GFX_buy_new_zealand
 		prerequisite = { focus = AST_australian_warlords}
 		mutually_exclusive = { focus =  }
 		x = -1
 		y = 1
 		relative_position_id = AST_australian_warlords
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1445,14 +1424,14 @@
 	
 	focus = {
 		id = AST_take_new_zealand
-		icon = GFX_goal_generic_construction
+		icon = GFX_attack_new_zealand
 		prerequisite = { focus = AST_australian_warlords}
 		mutually_exclusive = { }
 		x = 1
 		y = 1
 		relative_position_id = AST_australian_warlords
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1498,14 +1477,14 @@
 	
 	focus = {
 		id = AST_buy_eng_islands
-		icon = GFX_goal_generic_construction
+		icon = GFX_buy_eng_islands
 		prerequisite = { focus = AST_buy_new_zealand focus = AST_take_new_zealand }
 		mutually_exclusive = { }
 		x = 1
 		y = 1
 		relative_position_id = AST_buy_new_zealand
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1533,14 +1512,14 @@
 	
 	focus = {
 		id = AST_buy_fra_islands
-		icon = GFX_goal_generic_construction
+		icon = GFX_buy_france_islands
 		prerequisite = { focus = AST_buy_new_zealand focus = AST_take_new_zealand }
 		mutually_exclusive = { }
 		x = -1
 		y = 1
 		relative_position_id = AST_buy_new_zealand
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1568,14 +1547,14 @@
 	
 	focus = {
 		id = AST_buy_por_islands
-		icon = GFX_goal_generic_construction
+		icon = GFX_buy_portugal_islands
 		prerequisite = { focus = AST_buy_new_zealand focus = AST_take_new_zealand }
 		mutually_exclusive = { }
 		x = 1
 		y = 1
 		relative_position_id = AST_take_new_zealand
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1603,14 +1582,14 @@
 	
 	focus = {
 		id = AST_buy_jap_islands
-		icon = GFX_goal_generic_construction
+		icon = GFX_buy_japan_islands
 		prerequisite = { focus = AST_buy_por_islands focus = AST_buy_fra_islands focus = AST_buy_eng_islands }
 		mutually_exclusive = { }
 		x = -1
 		y = 1
 		relative_position_id = AST_buy_eng_islands
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1638,14 +1617,14 @@
 	
 	focus = {
 		id = AST_take_jap_islands
-		icon = GFX_goal_generic_construction
+		icon = GFX_attack_japan_islands
 		prerequisite = { focus = AST_buy_por_islands focus = AST_buy_fra_islands focus = AST_buy_eng_islands }
 		mutually_exclusive = { }
 		x = 1
 		y = 1
 		relative_position_id = AST_buy_eng_islands
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1690,14 +1669,14 @@
 	
 	focus = {
 		id = AST_attack_dutch_east_indies
-		icon = GFX_goal_generic_construction
+		icon = GFX_attack_dutch_east_indies
 		prerequisite = { focus = AST_buy_jap_islands focus = AST_take_jap_islands }
 		mutually_exclusive = { }
 		x = 1
 		y = 1
 		relative_position_id = AST_buy_jap_islands
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1727,14 +1706,14 @@
 	
 	focus = {
 		id = AST_gain_core
-		icon = GFX_goal_generic_construction
+		icon = GFX_core_2
 		prerequisite = { focus = AST_attack_dutch_east_indies }
 		mutually_exclusive = { }
 		x = 1
 		y = 2
 		relative_position_id = AST_buy_jap_islands
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1774,33 +1753,16 @@
 	
 	focus = {
 		id = AST_army_focus
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = }
-		mutually_exclusive = { focus =  }
+		icon = GFX_army_1
+
 		x = 30
 		y = 0
-		relative_position_id = 
 
-		cost = 6
+
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
 		}
 
 		completion_reward = {
@@ -1813,14 +1775,14 @@
 	
 	focus = {
 		id = AST_army_focus1
-		icon = GFX_goal_generic_construction
+		icon = GFX_army_1
 		prerequisite = { focus = AST_army_focus }
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_army_focus
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1848,14 +1810,14 @@
 	
 	focus = {
 		id = AST_army_focus2
-		icon = GFX_goal_generic_construction
+		icon = GFX_mechanized
 		prerequisite = { focus = AST_army_focus1 }
 		mutually_exclusive = { focus = }
 		x = -2
 		y = 1
 		relative_position_id = AST_army_focus1
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1888,14 +1850,14 @@
 	
 	focus = {
 		id = AST_army_focus3
-		icon = GFX_goal_generic_construction
+		icon = GFX_army_4
 		prerequisite = { focus = AST_army_focus1 }
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_army_focus1
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1952,14 +1914,14 @@
 	
 	focus = {
 		id = AST_army_focus4
-		icon = GFX_goal_generic_construction
+		icon = GFX_weapon
 		prerequisite = { focus = AST_army_focus1 }
 		mutually_exclusive = { focus = }
 		x = 2
 		y = 1
 		relative_position_id = AST_army_focus1
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -1998,14 +1960,14 @@
 	
 	focus = {
 		id = AST_army_focus5
-		icon = GFX_goal_generic_construction
+		icon = GFX_artillery
 		prerequisite = { focus = AST_army_focus2 focus = AST_army_focus3 focus = AST_army_focus4 }
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_army_focus3
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2047,14 +2009,14 @@
 	
 	focus = {
 		id = AST_army_focus6
-		icon = GFX_goal_generic_construction
+		icon = GFX_factory_1
 		prerequisite = { focus = AST_army_focus5}
 		mutually_exclusive = { focus = }
 		x = -1
 		y = 1
 		relative_position_id = AST_army_focus5
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2096,14 +2058,14 @@
 	}
 	focus = {
 		id = AST_army_focus7
-		icon = GFX_goal_generic_construction
+		icon = GFX_land_doctrine
 		prerequisite = { focus = AST_army_focus5}
 		mutually_exclusive = { focus = }
 		x = 1
 		y = 1
 		relative_position_id = AST_army_focus5
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2136,7 +2098,7 @@
 	
 	focus = {
 		id = AST_army_focus8
-		icon = GFX_goal_generic_construction
+		icon = GFX_tank
 		prerequisite = { focus = AST_army_focus6}
 		prerequisite = { focus = AST_army_focus7}
 		mutually_exclusive = { focus = }
@@ -2144,7 +2106,7 @@
 		y = 1
 		relative_position_id = AST_army_focus6
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2181,14 +2143,14 @@
 	############################
 	focus = {
 		id = AST_air_focus1
-		icon = GFX_goal_generic_construction
+		icon = GFX_air_1
 		prerequisite = { focus = AST_army_focus}
 		mutually_exclusive = { focus = }
 		x = -7
 		y = 1
 		relative_position_id = AST_army_focus
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2239,14 +2201,14 @@
 	
 	focus = {
 		id = AST_air_focus2
-		icon = GFX_goal_generic_construction
+		icon = GFX_air_small
 		prerequisite = { focus = AST_air_focus1 }
 		mutually_exclusive = { focus = }
 		x = -2
 		y = 1
 		relative_position_id = AST_air_focus1
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2275,14 +2237,14 @@
 	}
 	focus = {
 		id = AST_air_focus3
-		icon = GFX_goal_generic_construction
+		icon = GFX_air_medium
 		prerequisite = { focus = AST_air_focus1 }
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_air_focus1
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2311,14 +2273,14 @@
 	}
 	focus = {
 		id = AST_air_focus4
-		icon = GFX_goal_generic_construction
+		icon = GFX_air_large
 		prerequisite = { focus = AST_air_focus1 }
 		mutually_exclusive = { focus = }
 		x = 2
 		y = 1
 		relative_position_id = AST_air_focus1
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2348,7 +2310,7 @@
 	
 	focus = {
 		id = AST_air_focus5
-		icon = GFX_goal_generic_construction
+		icon = GFX_air_2
 		prerequisite = { focus = AST_air_focus2 }
 		prerequisite = { focus = AST_air_focus3 }
 		prerequisite = { focus = AST_air_focus4 }
@@ -2357,7 +2319,7 @@
 		y = 1
 		relative_position_id = AST_air_focus3
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2390,14 +2352,14 @@
 	
 	focus = {
 		id = AST_air_focus6
-		icon = GFX_goal_generic_construction
+		icon = GFX_air_3
 		prerequisite = { focus = AST_air_focus5 }
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_air_focus5
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2424,14 +2386,14 @@
 	}
 	focus = {
 		id = AST_air_focus7
-		icon = GFX_goal_generic_construction
+		icon = GFX_air_4
 		prerequisite = { focus = AST_air_focus6 }
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_air_focus6
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2468,14 +2430,14 @@
 	############################
 	focus = {
 		id = AST_naval_focus1
-		icon = GFX_goal_generic_construction
+		icon = GFX_naval_doctrine
 		prerequisite = { focus = AST_army_focus }
 		mutually_exclusive = { focus = }
 		x = 7
 		y = 1
 		relative_position_id = AST_army_focus
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2509,14 +2471,14 @@
 	
 	focus = {
 		id = AST_naval_focus2
-		icon = GFX_goal_generic_construction
+		icon = GFX_submarine
 		prerequisite = { focus = AST_naval_focus1 }
 		mutually_exclusive = { focus = AST_naval_focus3}
 		x = -2
 		y = 1
 		relative_position_id = AST_naval_focus1
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2549,14 +2511,14 @@
 	}
 	focus = {
 		id = AST_naval_focus3
-		icon = GFX_goal_generic_construction
+		icon = GFX_carrier
 		prerequisite = { focus = AST_naval_focus1 }
 		mutually_exclusive = { focus = AST_naval_focus2}
 		x = 2
 		y = 1
 		relative_position_id = AST_naval_focus1
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2590,14 +2552,14 @@
 	
 	focus = {
 		id = AST_naval_focus4
-		icon = GFX_goal_generic_construction
+		icon = GFX_dockyard_1
 		prerequisite = { focus = AST_naval_focus2 focus = AST_naval_focus3}
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_naval_focus2
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2632,14 +2594,14 @@
 	
 	focus = {
 		id = AST_naval_focus5
-		icon = GFX_goal_generic_construction
+		icon = GFX_ship
 		prerequisite = { focus = AST_naval_focus2 focus = AST_naval_focus3}
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_naval_focus3
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2671,14 +2633,14 @@
 	}
 	focus = {
 		id = AST_naval_focus6
-		icon = GFX_goal_generic_construction
+		icon = GFX_navy
 		prerequisite = { focus = AST_naval_focus4 focus = AST_naval_focus5 }
 		mutually_exclusive = { focus = }
 		x = 2
 		y = 1
 		relative_position_id = AST_naval_focus4
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2706,14 +2668,14 @@
 	
 	focus = {
 		id = AST_naval_focus7
-		icon = GFX_goal_generic_construction
+		icon = GFX_dockyard
 		prerequisite = { focus = AST_naval_focus6 }
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_naval_focus6
 
-		cost = 6
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2766,7 +2728,7 @@
 		x = 1
 		y = 11
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2826,7 +2788,7 @@
 		x = -1
 		y = 1
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2889,7 +2851,7 @@
 		y = 1
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 0.2
@@ -2942,7 +2904,7 @@
 		y = 2
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -2986,7 +2948,7 @@
 		y = 3
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 10
@@ -3030,7 +2992,7 @@
 		y = 3
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3175,7 +3137,7 @@
 		y = 4
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3213,7 +3175,7 @@
 		y = 4
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3254,7 +3216,7 @@
 		x = 14
 		y = 11
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 0.5 
@@ -3317,14 +3279,14 @@
 	
 	focus = {
 		id = AST_befriend_england
-		icon = GFX_goal_generic_construction
+		icon = GFX_buy_eng_islands
 		prerequisite = { focus = AST_never_another_gallipoli}
 		mutually_exclusive = { focus =  }
 		x = -3
 		y = 1
 		relative_position_id = AST_never_another_gallipoli
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3361,14 +3323,14 @@
 	
 	focus = {
 		id = AST_against_england
-		icon = GFX_goal_generic_construction
+		icon = GFX_attack_england
 		prerequisite = { focus = AST_never_another_gallipoli}
 		mutually_exclusive = { focus =  }
 		x = 3
 		y = 1
 		relative_position_id = AST_never_another_gallipoli
 
-		cost = 4.5
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3415,7 +3377,7 @@
 		y = 2
 		relative_position_id = AST_never_another_gallipoli
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3494,7 +3456,7 @@
 		y = 1
 		relative_position_id = AST_protect_the_homeland
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3548,7 +3510,7 @@
 		y = 1
 		relative_position_id = AST_protect_the_homeland
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3600,7 +3562,7 @@
 		y = 2
 		relative_position_id = AST_protect_the_homeland
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3661,7 +3623,7 @@
 		y = 2
 		relative_position_id = AST_protect_the_homeland
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3701,7 +3663,7 @@
 		y = 3
 		relative_position_id = AST_protect_the_homeland
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 2
@@ -3762,7 +3724,7 @@
 		y = 4
 		relative_position_id = AST_protect_the_homeland
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 4
@@ -3806,7 +3768,7 @@
 		y = 5
 		relative_position_id = AST_protect_the_homeland
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3849,7 +3811,7 @@
 		y = 2
 		relative_position_id = AST_never_another_gallipoli
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 0.5
@@ -3905,14 +3867,14 @@
 
 	focus = {
 		id = AST_fascist_australia
-		icon = GFX_goal_generic_construction
+		icon = GFX_fascist
 		prerequisite = { focus = AST_abandon_the_westminster_system}
 		mutually_exclusive = { focus = AST_kangaroo_company focus = AST_communist_australia }
 		x = -9
 		y = 1
 		relative_position_id = AST_abandon_the_westminster_system
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3940,14 +3902,14 @@
 	
 	focus = {
 		id = AST_befriend_germany
-		icon = GFX_goal_generic_construction
+		icon = GFX_friend_germany
 		prerequisite = { focus = AST_fascist_australia}
 		mutually_exclusive = { focus = AST_befriend_italy focus = AST_befriend_japan }
 		x = -4
 		y = 1
 		relative_position_id = AST_fascist_australia
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -3986,14 +3948,14 @@
 	
 	focus = {
 		id = AST_befriend_japan
-		icon = GFX_goal_generic_construction
+		icon = GFX_friend_japan
 		prerequisite = { focus = AST_fascist_australia}
 		mutually_exclusive = { focus = AST_befriend_italy focus = AST_befriend_germany }
 		x = 0
 		y = 1
 		relative_position_id = AST_fascist_australia
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4032,14 +3994,14 @@
 	
 	focus = {
 		id = AST_befriend_italy
-		icon = GFX_goal_generic_construction
+		icon = GFX_friend_italy
 		prerequisite = { focus = AST_fascist_australia}
 		mutually_exclusive = { focus = AST_befriend_germany focus = AST_befriend_japan }
 		x = 4
 		y = 1
 		relative_position_id = AST_fascist_australia
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4078,14 +4040,14 @@
 	
 	focus = {
 		id = AST_germany_1
-		icon = GFX_goal_generic_construction
+		icon = GFX_militarism
 		prerequisite = { focus = AST_befriend_germany }
 		mutually_exclusive = { focus =  }
 		x = -1
 		y = 1
 		relative_position_id = AST_befriend_germany
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4114,14 +4076,14 @@
 	
 	focus = {
 		id = AST_germany_2
-		icon = GFX_goal_generic_construction
+		icon = GFX_election
 		prerequisite = { focus = AST_befriend_germany}
 		mutually_exclusive = { focus =  }
 		x = 1
 		y = 1
 		relative_position_id = AST_befriend_germany
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4153,7 +4115,7 @@
 	
 	focus = {
 		id = AST_germany_3
-		icon = GFX_goal_generic_construction
+		icon = GFX_westminister
 		prerequisite = { focus = AST_germany_1 }
 		prerequisite = { focus = AST_germany_2 }
 		mutually_exclusive = { focus =  }
@@ -4161,7 +4123,7 @@
 		y = 1
 		relative_position_id = AST_germany_1
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4191,14 +4153,14 @@
 	
 	focus = {
 		id = AST_germany_4
-		icon = GFX_goal_generic_construction
+		icon = GFX_production_1
 		prerequisite = { focus = AST_germany_3 }
 		mutually_exclusive = { focus =  }
 		x = -1
 		y = 1
 		relative_position_id = AST_germany_3
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4227,14 +4189,14 @@
 	
 	focus = {
 		id = AST_germany_5
-		icon = GFX_goal_generic_construction
+		icon = GFX_production_2
 		prerequisite = { focus = AST_germany_3 }
 		mutually_exclusive = { focus =  }
 		x = 1
 		y = 1
 		relative_position_id = AST_germany_3
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4266,14 +4228,14 @@
 	
 	focus = {
 		id = AST_germany_6
-		icon = GFX_goal_generic_construction
+		icon = GFX_tech_group
 		prerequisite = { focus = AST_germany_4 focus = AST_germany_5 }
 		mutually_exclusive = { focus =  }
 		x = 1
 		y = 1
 		relative_position_id = AST_germany_4
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4303,14 +4265,14 @@
 	
 	focus = {
 		id = AST_italy_1
-		icon = GFX_goal_generic_construction
+		icon = GFX_militarism
 		prerequisite = { focus = AST_befriend_italy }
 		mutually_exclusive = { focus =  }
 		x = -1
 		y = 1
 		relative_position_id = AST_befriend_italy
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4339,14 +4301,14 @@
 	
 	focus = {
 		id = AST_italy_2
-		icon = GFX_goal_generic_construction
+		icon = GFX_election
 		prerequisite = { focus = AST_befriend_italy}
 		mutually_exclusive = { focus =  }
 		x = 1
 		y = 1
 		relative_position_id = AST_befriend_italy
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4378,14 +4340,14 @@
 	
 	focus = {
 		id = AST_italy_3
-		icon = GFX_goal_generic_construction
+		icon = GFX_westminister
 		prerequisite = { focus = AST_italy_1 focus = AST_italy_2 }
 		mutually_exclusive = { focus =  }
 		x = 1
 		y = 1
 		relative_position_id = AST_italy_1
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4414,14 +4376,14 @@
 	
 	focus = {
 		id = AST_italy_4
-		icon = GFX_goal_generic_construction
+		icon = GFX_production_1
 		prerequisite = { focus = AST_italy_3 }
 		mutually_exclusive = { focus =  }
 		x = -1
 		y = 1
 		relative_position_id = AST_italy_3
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4450,14 +4412,14 @@
 	
 	focus = {
 		id = AST_italy_5
-		icon = GFX_goal_generic_construction
+		icon = GFX_production_2
 		prerequisite = { focus = AST_italy_3 }
 		mutually_exclusive = { focus =  }
 		x = 1
 		y = 1
 		relative_position_id = AST_italy_3
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4489,14 +4451,14 @@
 	
 	focus = {
 		id = AST_italy_6
-		icon = GFX_goal_generic_construction
+		icon = GFX_tech_group
 		prerequisite = { focus = AST_italy_4 focus = AST_italy_5 }
 		mutually_exclusive = { focus =  }
 		x = 1
 		y = 1
 		relative_position_id = AST_italy_4
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4526,14 +4488,14 @@
 	
 	focus = {
 		id = AST_japan_1
-		icon = GFX_goal_generic_construction
+		icon = GFX_westminister
 		prerequisite = { focus = AST_befriend_japan }
 		mutually_exclusive = { focus =  }
 		x = 0
 		y = 1
 		relative_position_id = AST_befriend_japan
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4562,14 +4524,14 @@
 	
 	focus = {
 		id = AST_japan_2
-		icon = GFX_goal_generic_construction
+		icon = GFX_election
 		prerequisite = { focus = AST_japan_1 }
 		mutually_exclusive = { focus =  }
 		x = 1
 		y = 1
 		relative_position_id = AST_japan_1
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4601,14 +4563,14 @@
 	
 	focus = {
 		id = AST_japan_3
-		icon = GFX_goal_generic_construction
+		icon = GFX_militarism
 		prerequisite = { focus = AST_japan_1 }
 		mutually_exclusive = { focus =  }
 		x = -1
 		y = 1
 		relative_position_id = AST_japan_1
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4637,7 +4599,7 @@
 	
 	focus = {
 		id = AST_japan_4
-		icon = GFX_goal_generic_construction
+		icon = GFX_tech_group
 		prerequisite = { focus = AST_japan_2 }
 		prerequisite = { focus = AST_japan_3 }
 		mutually_exclusive = { focus =  }
@@ -4645,7 +4607,7 @@
 		y = 1
 		relative_position_id = AST_japan_3
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4684,7 +4646,7 @@
 		y = 1
 		relative_position_id = AST_japan_4
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4722,7 +4684,7 @@
 		y = 1
 		relative_position_id = AST_japan_5
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4755,14 +4717,14 @@
 
 	focus = {
 		id = AST_communist_australia
-		icon = GFX_goal_generic_construction
+		icon = GFX_communist
 		prerequisite = { focus = AST_abandon_the_westminster_system}
 		mutually_exclusive = { focus = AST_kangaroo_company focus = AST_fascist_australia }
 		x = 0
 		y = 1
 		relative_position_id = AST_abandon_the_westminster_system
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4785,19 +4747,27 @@
 
 		completion_reward = {
 			add_ideas = AST_communist_influence
+			ENG = { remove_from_faction = ROOT }
+			OVERLORD = {
+				set_autonomy = {
+					target = AST
+					autonomy_state = autonomy_free
+				}
+			}
+			set_politics = { ruling_party = communism elections_allowed = no }
 		}
 	}
 	
 	focus = {
 		id = AST_communist_1
-		icon = GFX_goal_generic_construction
+		icon = GFX_army_2
 		prerequisite = { focus = AST_communist_australia}
 		mutually_exclusive = { focus = }
 		x = -1
 		y = 1
 		relative_position_id = AST_communist_australia
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4857,14 +4827,14 @@
 	
 	focus = {
 		id = AST_communist_2
-		icon = GFX_goal_generic_construction
+		icon = GFX_factory_4
 		prerequisite = { focus = AST_communist_australia}
 		mutually_exclusive = { focus =  }
 		x = 1
 		y = 1
 		relative_position_id = AST_communist_australia
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4893,14 +4863,14 @@
 	
 	focus = {
 		id = AST_communist_3
-		icon = GFX_goal_generic_construction
+		icon = GFX_red_continent
 		prerequisite = { focus = AST_communist_1 focus = AST_communist_2 }
 		mutually_exclusive = { focus = AST_communist_4 }
 		x = 0
 		y = 1
 		relative_position_id = AST_communist_1
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4922,14 +4892,7 @@
 
 		}
 
-		completion_reward = {
-			ENG = { remove_from_faction = ROOT }
-			OVERLORD = {
-				set_autonomy = {
-					target = AST
-					autonomy_state = autonomy_free
-				}
-			} 
+		completion_reward = { 
 			remove_ideas = AST_abandon_the_westminster_system	
 			set_rule = { can_create_factions = yes }
 			create_faction = "Community on the Red Continent"
@@ -4938,14 +4901,14 @@
 	
 	focus = {
 		id = AST_communist_4
-		icon = GFX_goal_generic_construction
+		icon = GFX_comintern
 		prerequisite = { focus = AST_communist_1 focus = AST_communist_2 }
 		mutually_exclusive = { focus = AST_communist_3}
 		x = 0
 		y = 1
 		relative_position_id = AST_communist_2
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -4999,14 +4962,14 @@
 	
 	focus = {
 		id = AST_communist_5
-		icon = GFX_goal_generic_construction
+		icon = GFX_army_3
 		prerequisite = { focus = AST_communist_3 focus = AST_communist_4 }
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_communist_3
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5035,14 +4998,14 @@
 	
 	focus = {
 		id = AST_communist_6
-		icon = GFX_goal_generic_construction
+		icon = GFX_tech_group
 		prerequisite = { focus = AST_communist_3 focus = AST_communist_4 }
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_communist_4
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5072,7 +5035,7 @@
 	
 	focus = {
 		id = AST_communist_7
-		icon = GFX_goal_generic_construction
+		icon = GFX_army_5
 		prerequisite = { focus = AST_communist_5 }
 		prerequisite = { focus = AST_communist_6 }
 		mutually_exclusive = { focus = }
@@ -5080,7 +5043,7 @@
 		y = 1
 		relative_position_id = AST_communist_5
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5116,7 +5079,7 @@
 		y = 1
 		relative_position_id = AST_communist_7
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5149,14 +5112,14 @@
 
 	focus = {
 		id = AST_kangaroo_company
-		icon = GFX_goal_generic_construction
+		icon = GFX_kangaroo
 		prerequisite = { focus = AST_abandon_the_westminster_system}
 		mutually_exclusive = { focus = AST_fascist_australia focus = AST_communist_australia }
 		x = 9
 		y = 1
 		relative_position_id = AST_abandon_the_westminster_system
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5185,20 +5148,25 @@
 					target = AST
 					autonomy_state = autonomy_free
 				}
-			} 
+			}
+			set_party_name = { 
+				ideology = neutrality 
+				long_name = AST_Kangaroo_long
+				name = AST_Kangaroo
+			}
 		}
 	}
 	
 	focus = {
 		id = AST_kangaroo_1
-		icon = GFX_goal_generic_construction
+		icon = GFX_production_1
 		prerequisite = { focus = AST_kangaroo_company}
 		mutually_exclusive = { focus = }
 		x = -3
 		y = 1
 		relative_position_id = AST_kangaroo_company
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5226,14 +5194,14 @@
 	
 	focus = {
 		id = AST_kangaroo_2
-		icon = GFX_goal_generic_construction
+		icon = GFX_militarism
 		prerequisite = { focus = AST_kangaroo_company}
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_kangaroo_company
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5261,14 +5229,14 @@
 	
 	focus = {
 		id = AST_kangaroo_3
-		icon = GFX_goal_generic_construction
+		icon = GFX_production_2
 		prerequisite = { focus = AST_kangaroo_company}
 		mutually_exclusive = { focus = }
 		x = 3
 		y = 1
 		relative_position_id = AST_kangaroo_company
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5296,7 +5264,7 @@
 	
 	focus = {
 		id = AST_kangaroo_4
-		icon = GFX_goal_generic_construction
+		icon = GFX_consumer_goods_2
 		prerequisite = { focus = AST_kangaroo_1 }
 		prerequisite = { focus = AST_kangaroo_2 }
 		prerequisite = { focus = AST_kangaroo_3 }
@@ -5305,7 +5273,7 @@
 		y = 1
 		relative_position_id = AST_kangaroo_2
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5328,19 +5296,34 @@
 
 		completion_reward = {
 			add_ideas = AST_invest_in_victory
+			set_politics = { ruling_party = neutrality elections_allowed = no }
+			
+				create_country_leader = {
+					name = "Mr. Kangaroo"
+					desc = ""
+					picture = "gfx/leaders/mrKangaroo.dds"
+					expire = "1965.1.1"
+					ideology = theocracy
+					traits = {
+						face_licker
+						repair_and_refurbishment_plant
+					}
+				}
+			
+			set_cosmetic_tag = AST_greater_kangaroo
 		}
 	}
 	
 	focus = {
 		id = AST_kangaroo_5
-		icon = GFX_goal_generic_construction
+		icon = GFX_westminister
 		prerequisite = { focus = AST_kangaroo_4 }
 		mutually_exclusive = { focus = }
 		x = 0
 		y = 1
 		relative_position_id = AST_kangaroo_4
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5369,14 +5352,14 @@
 	
 	focus = {
 		id = AST_kangaroo_6
-		icon = GFX_goal_generic_construction
+		icon = GFX_attack_japan_islands
 		prerequisite = { focus = AST_kangaroo_5 }
 		mutually_exclusive = { focus = AST_kangaroo_7 }
 		x = -1
 		y = 1
 		relative_position_id = AST_kangaroo_5
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5411,14 +5394,14 @@
 	
 	focus = {
 		id = AST_kangaroo_7
-		icon = GFX_goal_generic_construction
+		icon = GFX_buy_japan_islands
 		prerequisite = { focus = AST_kangaroo_5 }
 		mutually_exclusive = { focus = AST_kangaroo_6 }
 		x = 1
 		y = 1
 		relative_position_id = AST_kangaroo_5
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1
@@ -5452,7 +5435,7 @@
 	
 	focus = {
 		id = AST_kangaroo_8
-		icon = GFX_research_slot
+		icon = GFX_kangaroo_2
 		prerequisite = { focus = AST_kangaroo_6 }
 		prerequisite = { focus = AST_kangaroo_7 }
 		mutually_exclusive = { focus = }
@@ -5460,7 +5443,7 @@
 		y = 1
 		relative_position_id = AST_kangaroo_7
 
-		cost = 1
+		cost = 5.3
 
 		ai_will_do = {
 			factor = 1

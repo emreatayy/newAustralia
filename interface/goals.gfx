@@ -107,4 +107,197 @@ spriteTypes = {
 		name = "GFX_consumer_goods_1"
 		texturefile = "gfx/interface/goals/consumer_goods_1.dds"
 	}
+	SpriteType = { 
+		name = "GFX_warlord"
+		texturefile = "gfx/interface/goals/warlord.dds"
+	}
+	SpriteType = { 
+		name = "GFX_attack_new_zealand"
+		texturefile = "gfx/interface/goals/attack_new_zealand.dds"
+	}
+	SpriteType = { 
+		name = "GFX_buy_new_zealand"
+		texturefile = "gfx/interface/goals/buy_new_zealand.dds"
+	}
+	SpriteType = { 
+		name = "GFX_buy_france_islands"
+		texturefile = "gfx/interface/goals/buy_france_islands.dds"
+	}
+	SpriteType = { 
+		name = "GFX_buy_eng_islands"
+		texturefile = "gfx/interface/goals/buy_eng_islands.dds"
+	}
+	SpriteType = { 
+		name = "GFX_buy_portugal_islands"
+		texturefile = "gfx/interface/goals/buy_portugal_islands.dds"
+	}
+	SpriteType = { 
+		name = "GFX_attack_japan_islands"
+		texturefile = "gfx/interface/goals/attack_japan_islands.dds"
+	}
+	SpriteType = { 
+		name = "GFX_buy_japan_islands"
+		texturefile = "gfx/interface/goals/buy_japan_islands.png"
+	}
+	SpriteType = { 
+		name = "GFX_attack_dutch_east_indies"
+		texturefile = "gfx/interface/goals/attack_dutch_east_indies.png"
+	}
+	SpriteType = { 
+		name = "GFX_core_2"
+		texturefile = "gfx/interface/goals/core_2.dds"
+	}
+	SpriteType = { 
+		name = "GFX_air_1"
+		texturefile = "gfx/interface/goals/air_1.dds"
+	}
+	SpriteType = { 
+		name = "GFX_air_2"
+		texturefile = "gfx/interface/goals/goal_generic_build_airforce.dds"
+	}
+	SpriteType = { 
+		name = "GFX_air_3"
+		texturefile = "gfx/interface/goals/air_3.png"
+	}
+	SpriteType = { 
+		name = "GFX_air_4"
+		texturefile = "gfx/interface/goals/air_4.dds"
+	}
+	SpriteType = { 
+		name = "GFX_air_small"
+		texturefile = "gfx/interface/goals/air_small.png"
+	}
+	SpriteType = { 
+		name = "GFX_air_medium"
+		texturefile = "gfx/interface/goals/air_medium.png"
+	}
+	SpriteType = { 
+		name = "GFX_air_large"
+		texturefile = "gfx/interface/goals/air_large.dds"
+	}
+	SpriteType = { 
+		name = "GFX_army_1"
+		texturefile = "gfx/interface/goals/army_1.png"
+	}
+	SpriteType = { 
+		name = "GFX_army_2"
+		texturefile = "gfx/interface/goals/army_2.dds"
+	}
+	SpriteType = { 
+		name = "GFX_army_3"
+		texturefile = "gfx/interface/goals/army_3.dds"
+	}
+	SpriteType = { 
+		name = "GFX_army_4"
+		texturefile = "gfx/interface/goals/army_4.png"
+	}
+	SpriteType = { 
+		name = "GFX_army_5"
+		texturefile = "gfx/interface/goals/army_5.dds"
+	}
+	SpriteType = { 
+		name = "GFX_mechanized"
+		texturefile = "gfx/interface/goals/mechanized.png"
+	}
+	SpriteType = { 
+		name = "GFX_weapon"
+		texturefile = "gfx/interface/goals/weapon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_artillery"
+		texturefile = "gfx/interface/goals/artillery.dds"
+	}
+	SpriteType = { 
+		name = "GFX_land_doctrine"
+		texturefile = "gfx/interface/goals/land_doctrine.dds"
+	}
+	SpriteType = { 
+		name = "GFX_tank"
+		texturefile = "gfx/interface/goals/tank.png"
+	}
+	SpriteType = { 
+		name = "GFX_naval_doctrine"
+		texturefile = "gfx/interface/goals/naval_doctrine.dds"
+	}
+	SpriteType = { 
+		name = "GFX_submarine"
+		texturefile = "gfx/interface/goals/submarine.dds"
+	}
+	SpriteType = { 
+		name = "GFX_carrier"
+		texturefile = "gfx/interface/goals/carrier.png"
+	}
+	SpriteType = { 
+		name = "GFX_ship"
+		texturefile = "gfx/interface/goals/ship.dds"
+	}
+	SpriteType = { 
+		name = "GFX_navy"
+		texturefile = "gfx/interface/goals/navy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_dockyard"
+		texturefile = "gfx/interface/goals/dockyard.png"
+	}
+	SpriteType = { 
+		name = "GFX_fascist"
+		texturefile = "gfx/interface/goals/fascist.dds"
+	}
+	SpriteType = { 
+		name = "GFX_friend_germany"
+		texturefile = "gfx/interface/goals/friend_germany.dds"
+	}
+	SpriteType = { 
+		name = "GFX_friend_japan"
+		texturefile = "gfx/interface/goals/friend_japan.png"
+	}
+	SpriteType = { 
+		name = "GFX_friend_italy"
+		texturefile = "gfx/interface/goals/friend_italy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_militarism"
+		texturefile = "gfx/interface/goals/militarism.png"
+	}
+	SpriteType = { 
+		name = "GFX_election"
+		texturefile = "gfx/interface/goals/election.dds"
+	}
+	SpriteType = { 
+		name = "GFX_westminister"
+		texturefile = "gfx/interface/goals/westminister.dds"
+	}
+	SpriteType = { 
+		name = "GFX_tech_group"
+		texturefile = "gfx/interface/goals/tech_group.png"
+	}
+	SpriteType = { 
+		name = "GFX_communist"
+		texturefile = "gfx/interface/goals/communist.dds"
+	}
+	SpriteType = { 
+		name = "GFX_red_continent"
+		texturefile = "gfx/interface/goals/red_continent.png"
+	}
+	SpriteType = { 
+		name = "GFX_comintern"
+		texturefile = "gfx/interface/goals/comintern.dds"
+	}
+	SpriteType = { 
+		name = "GFX_kangaroo"
+		texturefile = "gfx/interface/goals/kangaroo.dds"
+	}
+	SpriteType = { 
+		name = "GFX_consumer_goods_2"
+		texturefile = "gfx/interface/goals/consumer_goods_2.png"
+	}
+	SpriteType = { 
+		name = "GFX_kangaroo_2"
+		texturefile = "gfx/interface/goals/kangaroo_2.dds"
+	}
+	SpriteType = { 
+		name = "GFX_attack_england" 
+		texturefile = "gfx/interface/goals/attack_england.dds"
+	}
 }
